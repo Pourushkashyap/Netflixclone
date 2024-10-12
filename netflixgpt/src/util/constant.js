@@ -11,3 +11,5 @@ export const LOGO =
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYTQ3NDYxNWEyMmQyYThhZWIwOWRjODA4MzljMTZjYyIsIm5iZiI6MTcyODU1ODQ5Ni43MDE0OTcsInN1YiI6IjY3MDdiM2Y5MWQ5NmRjNmQ0NzZhMjUwMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MoSgR8dR-d0Bp8nXBy3Ixr70U7k9SgjuVMkfiMiPkCQ'
     }
   };
+
+  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780/"

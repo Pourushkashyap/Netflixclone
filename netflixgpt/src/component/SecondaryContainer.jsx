@@ -1,8 +1,17 @@
 import React from 'react'
-
+import Moivelist from './Moivelist'
+import { useSelector } from 'react-redux'
 function SecondaryContainer() {
-  return (
-    <div>SecondaryContainer</div>
+  const moives = useSelector(store => store.moives);
+  return moives.nowplayingmoives && (
+    <div className=' bg-black'>
+      <div className='-mt-52 pl-12  relative z-20'>
+      <Moivelist title={"Now Playing"} moives={moives.nowplayingmoives}/>
+      <Moivelist title={"Trending"} moives={moives.nowplayingmoives}/>
+      <Moivelist title={"Populer"} moives={moives.nowplayingmoives}/>
+      <Moivelist title={"Horror"} moives={moives.nowplayingmoives}/>
+      </div>
+    </div>
   )
 }
 
