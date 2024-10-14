@@ -8,9 +8,10 @@ function MainContainer() {
     if(!moives){
         return;
     }
-     const mainmoives = moives[0];
+     const mainmoives = moives[1];
      
-     const {original_title,overview,id} = mainmoives    
+     const {original_title,overview,id} = mainmoives  ;
+     console.log(id);  
     return (
     <div>
         <Videotitle title={original_title} overview={overview}/>

@@ -13,3 +13,5 @@ export const LOGO =
   };
 
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780/"
+
+  export const OPENAI_KEY = "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"
